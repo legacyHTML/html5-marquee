@@ -1,7 +1,11 @@
         marquee[direction=left],marquee[direction=right] {
+            overflow-y: hidden;
+            overflow-x: hidden;
+            display: block;
+            max-width:50%;
             -moz-transform: translateX(100%);
             -webkit-transform: translateX(100%);
-            transform: translateX(100%);
+            transform: translateX(1%);
             -moz-animation: marquee-left 2s linear infinite;
             -webkit-animation: marquee-left 2s linear infinite;
             animation: marquee-left 2s linear infinite;
@@ -12,8 +16,8 @@
         }
 
         marquee[direction=up],marquee[direction=down] {
-            -moz-transform: translateX(150%);
-            -webkit-transform: translateX(150%);
+            -moz-transform: translateX(100%);
+            -webkit-transform: translateX(100%);
             transform: translateX(100%);
             -moz-animation: marquee-up 2s linear infinite;
             -webkit-animation: marquee-up 2s linear infinite;
