@@ -1,5 +1,5 @@
-<h1 align="center">HTML5-marquee</h1>
-<h3 align="center">A 'true to original' recreation of the legacy <marquee> tag</h3>
+<h1 align="center"><marquee>HTML5-marquee</marquee></h1>
+<h3 align="center">A 'true to original' recreation of the legacy &lt;marquee> tag</h3>
   
 # Author's notes
 
